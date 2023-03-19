@@ -11,7 +11,9 @@ import (
 
 func main() {
 	dictionaryContent := "\n\n"
+	dictionaryContent += "### Easy \n"
 
+	// Generate Easy Dictionary
 	i := 1
 
 	err := filepath.Walk("easy",
@@ -38,6 +40,47 @@ func main() {
 			title = strings.Title(strings.ToLower(title))
 
 			title = strings.ReplaceAll(title, "Easy/", "")
+
+			dictionaryContent += fmt.Sprintf("%d. %s - [main.go](%s/main.go)\n", i, title, path)
+
+			i++
+
+			return nil
+		})
+	if err != nil {
+		log.Fatal(err)
+	}
+
+	dictionaryContent += "\n\n"
+	dictionaryContent += "### Medium \n"
+
+	// Generate Medium Dictionary
+	i = 1
+
+	err = filepath.Walk("medium",
+		func(path string, info os.FileInfo, err error) error {
+			if err != nil {
+				return fmt.Errorf("failed to read each file: %w", err)
+			}
+
+			if !info.IsDir() {
+				return nil
+			}
+
+			if strings.Contains(path, ".") || strings.Contains(path, "_scripts") {
+				return nil
+			}
+
+			if path == "medium" {
+				return nil
+			}
+
+			title := path
+
+			title = strings.ReplaceAll(path, "-", " ")
+			title = strings.Title(strings.ToLower(title))
+
+			title = strings.ReplaceAll(title, "Medium/", "")
 
 			dictionaryContent += fmt.Sprintf("%d. %s - [main.go](%s/main.go)\n", i, title, path)
 
