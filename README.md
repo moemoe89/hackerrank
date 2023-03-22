@@ -63,5 +63,6 @@ Just for my personal collections.
 
 ### Medium 
 1. Balanced Brackets - [main.go](medium/balanced-brackets/main.go)
+2. Max Min - [main.go](medium/max-min/main.go)
 
 <!-- end dictionary -->
