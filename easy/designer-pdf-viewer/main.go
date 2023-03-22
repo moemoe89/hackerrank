@@ -16,10 +16,12 @@ func designerPdfViewer(h []int32, word string) int32 {
 	for i, r := range word {
 		if i == 0 {
 			out = mapChar[r]
-		} else {
-			if mapChar[r] > out {
-				out = mapChar[r]
-			}
+
+			continue
+		}
+
+		if mapChar[r] > out {
+			out = mapChar[r]
 		}
 	}
 

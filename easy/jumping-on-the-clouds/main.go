@@ -13,12 +13,12 @@ func jumpingOnClouds(c []int32) int32 {
 		}
 
 		twoJump := i + 2
-		if twoJump <= n {
-			if c[twoJump] == 0 {
-				i = twoJump - 1
-				jump++
-				continue
-			}
+		if twoJump <= n && c[twoJump] == 0 {
+			i = twoJump - 1
+
+			jump++
+
+			continue
 		}
 
 		jump++

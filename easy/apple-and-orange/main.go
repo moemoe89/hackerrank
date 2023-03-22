@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func countApplesAndOranges(s int32, t int32, a int32, b int32, apples []int32, oranges []int32) {
-
 	var firstOutput, secondOutput int
+
 	for _, apple := range apples {
 		if (a+apple) >= s && (a+apple) <= t {
 			firstOutput++

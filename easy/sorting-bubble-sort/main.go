@@ -8,14 +8,19 @@ func countSwaps(a []int32) {
 	swaps := 0
 
 	for i := 0; i < n; i++ {
+		isSwap := false
 
 		for j := 0; j < n-i; j++ {
 			if a[j] > a[j+1] {
+				isSwap = true
 				swaps++
 				a[j], a[j+1] = a[j+1], a[j]
 			}
 		}
 
+		if !isSwap {
+			break
+		}
 	}
 
 	fmt.Printf("Array is sorted in %v swaps.\n", swaps)

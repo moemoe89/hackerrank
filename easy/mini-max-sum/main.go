@@ -7,17 +7,20 @@ func miniMaxSum(arr []int64) {
 
 	for k, v := range arr {
 		total += v
+
 		if k == 0 {
 			minInt = v
 			maxInt = v
-		} else {
-			if minInt > v {
-				minInt = v
-			}
 
-			if maxInt < v {
-				maxInt = v
-			}
+			continue
+		}
+
+		if minInt > v {
+			minInt = v
+		}
+
+		if maxInt < v {
+			maxInt = v
 		}
 	}
 

@@ -12,8 +12,7 @@ func hurdleRace(k int32, height []int32) int32 {
 		return 0
 	}
 
-	out := maxNumb - k
-	return out
+	return maxNumb - k
 }
 
 func quickSort(arr []int32, left int, right int) {
