@@ -22,7 +22,6 @@ func luckBalance(k int32, contests [][]int32) int32 {
 		}
 
 		output -= contests[i][0]
-
 	}
 
 	return output
