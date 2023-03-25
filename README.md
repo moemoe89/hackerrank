@@ -62,7 +62,8 @@ Just for my personal collections.
 55. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
 56. Time Conversion - [main.go](easy/time-conversion/main.go)
 57. Two Strings - [main.go](easy/two-strings/main.go)
-58. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+58. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+59. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
