@@ -3,13 +3,20 @@ package main
 import "fmt"
 
 func marcsCakewalk(calorie []int32) int64 {
+	// initialize the index length.
 	n := len(calorie) - 1
 
+	// descending sort the array.
 	quickSort(calorie, 0, n)
 
 	output := int64(0)
 
+	// iterates the array.
 	for i := range calorie {
+		// as the requirement, calculates the calorie with 2^i
+		// e.g. 3 * 2^0
+		// 2 * 2^1
+		// 1 * 2^2
 		output += int64(calorie[n-i]) * pow(2, int64(i))
 	}
 
