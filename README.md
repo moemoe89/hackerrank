@@ -67,13 +67,14 @@ Just for my personal collections.
 60. Staircase - [main.go](easy/staircase/main.go)
 61. String Construction - [main.go](easy/string-construction/main.go)
 62. Strings Making Anagram - [main.go](easy/strings-making-anagram/main.go)
-63. Subarray Division - [main.go](easy/subarray-division/main.go)
-64. Super Reduced String - [main.go](easy/super-reduced-string/main.go)
-65. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
-66. Time Conversion - [main.go](easy/time-conversion/main.go)
-67. Two Strings - [main.go](easy/two-strings/main.go)
-68. Utopian Tree - [main.go](easy/utopian-tree/main.go)
-69. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+63. Strong Password - [main.go](easy/strong-password/main.go)
+64. Subarray Division - [main.go](easy/subarray-division/main.go)
+65. Super Reduced String - [main.go](easy/super-reduced-string/main.go)
+66. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
+67. Time Conversion - [main.go](easy/time-conversion/main.go)
+68. Two Strings - [main.go](easy/two-strings/main.go)
+69. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+70. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
