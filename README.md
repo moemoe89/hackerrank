@@ -68,11 +68,12 @@ Just for my personal collections.
 61. String Construction - [main.go](easy/string-construction/main.go)
 62. Strings Making Anagram - [main.go](easy/strings-making-anagram/main.go)
 63. Subarray Division - [main.go](easy/subarray-division/main.go)
-64. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
-65. Time Conversion - [main.go](easy/time-conversion/main.go)
-66. Two Strings - [main.go](easy/two-strings/main.go)
-67. Utopian Tree - [main.go](easy/utopian-tree/main.go)
-68. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+64. Super Reduced String - [main.go](easy/super-reduced-string/main.go)
+65. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
+66. Time Conversion - [main.go](easy/time-conversion/main.go)
+67. Two Strings - [main.go](easy/two-strings/main.go)
+68. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+69. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
