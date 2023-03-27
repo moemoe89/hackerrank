@@ -5,14 +5,14 @@ import "fmt"
 func alternatingCharacters(s string) int32 {
 	var output int32
 
-	beforeChar := ""
+	var beforeChar byte
 
-	for i, r := range s {
+	for i := range s {
 		if i > 0 {
-			beforeChar = string(s[i-1])
+			beforeChar = s[i-1]
 		}
 
-		if len(beforeChar) > 0 && beforeChar == string(r) {
+		if beforeChar > 0 && beforeChar == s[i] {
 			output++
 
 			continue
