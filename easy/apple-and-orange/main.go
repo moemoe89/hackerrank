@@ -3,22 +3,27 @@ package main
 import "fmt"
 
 func countApplesAndOranges(s int32, t int32, a int32, b int32, apples []int32, oranges []int32) {
-	var firstOutput, secondOutput int
+	// prepare the number of apple and orange falls.
+	var appleFalls, orangeFalls int
 
+	// check if each apple in the Sam's house location or not (s <= x <= t).
+	// need to add apple tree location (a)
 	for _, apple := range apples {
 		if (a+apple) >= s && (a+apple) <= t {
-			firstOutput++
+			appleFalls++
 		}
 	}
 
+	// check if each orange in the Sam's house location or not (s <= x <= t).
+	// need to add orange tree location (b)
 	for _, orange := range oranges {
 		if (b+orange) >= s && (b+orange) <= t {
-			secondOutput++
+			orangeFalls++
 		}
 	}
 
-	fmt.Println(firstOutput)
-	fmt.Println(secondOutput)
+	fmt.Println(appleFalls)
+	fmt.Println(orangeFalls)
 }
 
 func main() {

@@ -5,17 +5,17 @@ import "fmt"
 func alternatingCharacters(s string) int32 {
 	var output int32
 
-	var beforeChar byte
-
 	for i := range s {
-		if i > 0 {
-			beforeChar = s[i-1]
+		// go to next iteration if i is first iteration.
+		// because the first character doesn't have previous character.
+		if i == 0 {
+			continue
 		}
 
-		if beforeChar > 0 && beforeChar == s[i] {
+		// if the previous character same with current character,
+		// count the deletion.
+		if s[i-1] == s[i] {
 			output++
-
-			continue
 		}
 	}
 
