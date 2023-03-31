@@ -1,32 +1,27 @@
+// https://www.hackerrank.com/challenges/angry-professor/problem?isFullScreen=true
 package main
 
 import "fmt"
 
 func angryProfessor(k int32, a []int32) string {
-	// initialize the numbers of students.
-	n := int32(len(a))
-
-	// variable for counting the late students.
-	var numLate int32
+	// variable for counting the not late students.
+	var attend int32
 
 	for _, v := range a {
-		// if the value more than 0,
-		// it's mean the student is late.
-		if v > 0 {
-			numLate++
+		// if the value under equal than 0,
+		// it's mean the student is not late.
+		if v <= 0 {
+			attend++
 		}
 	}
 
-	// count the student that available to attend.
-	attend := n - numLate
-
 	// if the number of attend more than the expected
-	// the class will go on.
-	if attend < k {
-		return "YES"
-	} else {
+	// the class will not cancelled.
+	if attend >= k {
 		return "NO"
 	}
+
+	return "YES"
 }
 
 func main() {

@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true
 package main
 
 import "fmt"
@@ -9,7 +10,7 @@ func countApplesAndOranges(s int32, t int32, a int32, b int32, apples []int32, o
 	// check if each apple in the Sam's house location or not (s <= x <= t).
 	// need to add apple tree location (a)
 	for _, apple := range apples {
-		if (a+apple) >= s && (a+apple) <= t {
+		if a+apple >= s && a+apple <= t {
 			appleFalls++
 		}
 	}
@@ -17,7 +18,7 @@ func countApplesAndOranges(s int32, t int32, a int32, b int32, apples []int32, o
 	// check if each orange in the Sam's house location or not (s <= x <= t).
 	// need to add orange tree location (b)
 	for _, orange := range oranges {
-		if (b+orange) >= s && (b+orange) <= t {
+		if b+orange >= s && b+orange <= t {
 			orangeFalls++
 		}
 	}

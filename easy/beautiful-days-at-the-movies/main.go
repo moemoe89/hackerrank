@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/beautiful-days-at-the-movies/problem?isFullScreen=true
 package main
 
 import "fmt"
@@ -19,7 +20,7 @@ func beautifulDays(i int32, j int32, k int32) int32 {
 	return out
 }
 
-// just like checking palindrom,
+// just like checking palindrome,
 // this function is to reverse number.
 // e.g. 2000 -> 0002 (2), 1234 -> 4321
 func reverseInt32(i int32) int32 {

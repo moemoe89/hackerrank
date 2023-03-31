@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/alternating-characters/problem?isFullScreen=true
 package main
 
 import "fmt"

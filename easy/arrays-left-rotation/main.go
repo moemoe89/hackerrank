@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/ctci-array-left-rotation/problem?isFullScreen=true
 package main
 
 import "fmt"

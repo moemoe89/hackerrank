@@ -1,6 +1,9 @@
+// https://www.hackerrank.com/challenges/caesar-cipher-1/problem?isFullScreen=true
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func caesarCipher(s string, k int32) string {
 	// initialize number of alphabet
@@ -60,6 +63,25 @@ func caesarCipher(s string, k int32) string {
 	return string(encrypted)
 }
 
+func caesarCipher2(s string, k int32) string {
+	result := make([]rune, len(s))
+
+	for i, c := range s {
+		shifted := c
+
+		if c >= 'a' && c <= 'z' {
+			shifted = 'a' + ((c - 'a' + k) % 26)
+		} else if c >= 'A' && c <= 'Z' {
+			shifted = 'A' + ((c - 'A' + k) % 26)
+		}
+
+		result[i] = shifted
+	}
+
+	return string(result)
+}
+
 func main() {
 	fmt.Println(caesarCipher("www.abc.xy", 87))
+	fmt.Println(caesarCipher2("www.abc.xy", 87))
 }

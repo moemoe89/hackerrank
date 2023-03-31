@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/bon-appetit/problem?isFullScreen=true
 package main
 
 import "fmt"
