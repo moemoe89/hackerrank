@@ -4,7 +4,7 @@ import "fmt"
 
 func gameOfThrones(s string) string {
 	// initialize the map.
-	m := make(map[rune]int, 0)
+	m := make(map[rune]int, len(s))
 
 	// store all element and the frequency to map.
 	for _, r := range s {

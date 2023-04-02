@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func matchingStrings(stringList []string, queries []string) []int32 {
-	m := make(map[string]int32, 0)
+	m := make(map[string]int32, len(stringList))
 
 	for _, s := range stringList {
 		m[s]++

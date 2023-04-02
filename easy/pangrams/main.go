@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func pangrams(s string) string {
-	mapS := make(map[rune]struct{}, 0)
+	mapS := make(map[rune]struct{}, len(s))
 
 	for _, r := range s {
 		if r >= 'A' && r <= 'Z' {
