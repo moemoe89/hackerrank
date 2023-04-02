@@ -84,10 +84,11 @@ Just for my personal collections.
 77. Subarray Division - [main.go](easy/subarray-division/main.go)
 78. Super Reduced String - [main.go](easy/super-reduced-string/main.go)
 79. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
-80. Time Conversion - [main.go](easy/time-conversion/main.go)
-81. Two Strings - [main.go](easy/two-strings/main.go)
-82. Utopian Tree - [main.go](easy/utopian-tree/main.go)
-83. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+80. The Love Letter Mystery - [main.go](easy/the-love-letter-mystery/main.go)
+81. Time Conversion - [main.go](easy/time-conversion/main.go)
+82. Two Strings - [main.go](easy/two-strings/main.go)
+83. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+84. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
