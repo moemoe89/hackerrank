@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/cut-the-sticks/problem?isFullScreen=true
 package main
 
 import "fmt"
