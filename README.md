@@ -85,13 +85,14 @@ Just for my personal collections.
 78. Strings Making Anagram - [main.go](easy/strings-making-anagram/main.go)
 79. Strong Password - [main.go](easy/strong-password/main.go)
 80. Subarray Division - [main.go](easy/subarray-division/main.go)
-81. Super Reduced String - [main.go](easy/super-reduced-string/main.go)
-82. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
-83. The Love Letter Mystery - [main.go](easy/the-love-letter-mystery/main.go)
-84. Time Conversion - [main.go](easy/time-conversion/main.go)
-85. Two Strings - [main.go](easy/two-strings/main.go)
-86. Utopian Tree - [main.go](easy/utopian-tree/main.go)
-87. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+81. Sum Vs Xor - [main.go](easy/sum-vs-xor/main.go)
+82. Super Reduced String - [main.go](easy/super-reduced-string/main.go)
+83. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
+84. The Love Letter Mystery - [main.go](easy/the-love-letter-mystery/main.go)
+85. Time Conversion - [main.go](easy/time-conversion/main.go)
+86. Two Strings - [main.go](easy/two-strings/main.go)
+87. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+88. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
