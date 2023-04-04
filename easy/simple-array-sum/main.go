@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/simple-array-sum/problem?isFullScreen=true
 package main
 
 import "fmt"
