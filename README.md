@@ -10,7 +10,7 @@ Just for my personal collections.
 3. Alternating Characters - [main.go](easy/alternating-characters/main.go)
 4. Angry Professor - [main.go](easy/angry-professor/main.go)
 5. Apple And Orange - [main.go](easy/apple-and-orange/main.go)
-6. Array Ds - [main.go](easy/array-ds/main.go)
+6. Arrays Ds - [main.go](easy/arrays-ds/main.go)
 7. Arrays Left Rotation - [main.go](easy/arrays-left-rotation/main.go)
 8. Beautiful Days At The Movies - [main.go](easy/beautiful-days-at-the-movies/main.go)
 9. Big Sorting - [main.go](easy/big-sorting/main.go)
@@ -87,12 +87,13 @@ Just for my personal collections.
 80. Subarray Division - [main.go](easy/subarray-division/main.go)
 81. Sum Vs Xor - [main.go](easy/sum-vs-xor/main.go)
 82. Super Reduced String - [main.go](easy/super-reduced-string/main.go)
-83. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
-84. The Love Letter Mystery - [main.go](easy/the-love-letter-mystery/main.go)
-85. Time Conversion - [main.go](easy/time-conversion/main.go)
-86. Two Strings - [main.go](easy/two-strings/main.go)
-87. Utopian Tree - [main.go](easy/utopian-tree/main.go)
-88. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+83. Taum And Bday - [main.go](easy/taum-and-bday/main.go)
+84. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
+85. The Love Letter Mystery - [main.go](easy/the-love-letter-mystery/main.go)
+86. Time Conversion - [main.go](easy/time-conversion/main.go)
+87. Two Strings - [main.go](easy/two-strings/main.go)
+88. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+89. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
