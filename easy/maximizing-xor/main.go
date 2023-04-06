@@ -9,7 +9,7 @@ func maximizingXor(l int32, r int32) int32 {
 
 	// because we need each pair, do nested loop.
 	for i := l; i <= r; i++ {
-		for j := l; j <= r; j++ {
+		for j := i; j <= r; j++ {
 			// checks the ⊕ or xor by using ^
 			if i^j > max {
 				max = i ^ j
