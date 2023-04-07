@@ -1,9 +1,10 @@
+// https://www.hackerrank.com/challenges/electronics-shop/problem?isFullScreen=true
 package main
 
 import "fmt"
 
 func getMoneySpent(keyboards []int32, drives []int32, b int32) int32 {
-	max := int32(0)
+	max := int32(-1)
 
 	// iterates keyboards and drives
 	// to find the maximum combination
@@ -21,13 +22,8 @@ func getMoneySpent(keyboards []int32, drives []int32, b int32) int32 {
 		}
 	}
 
-	// if max not 0, means the max combination found
-	if max != 0 {
-		return max
-	}
-
 	// if not found return -1
-	return -1
+	return max
 }
 
 func main() {
