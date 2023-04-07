@@ -10,14 +10,9 @@ type SinglyLinkedListNode struct {
 
 func printLinkedList(head *SinglyLinkedListNode) {
 	// loop until the end of linked list.
-	for {
+	for head != nil {
 		// print the element of each linked list.
 		fmt.Println(head.data)
-
-		// if reach the last element, break the loop.
-		if head.next == nil {
-			break
-		}
 
 		// override the current (head) with the next.
 		head = head.next
