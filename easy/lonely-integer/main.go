@@ -3,23 +3,19 @@ package main
 import "fmt"
 
 func lonelyinteger(a []int32) int32 {
-	mapA := make(map[int32]int)
+	m := make(map[int32]int32)
 
 	for _, v := range a {
-		mapA[v] = mapA[v] + 1
+		m[v]++
 	}
 
-	var out int32
-
-	for k, v := range mapA {
+	for k, v := range m {
 		if v == 1 {
-			out = k
-			
-			break
+			return k
 		}
 	}
 
-	return out
+	return 0
 }
 
 func main() {
