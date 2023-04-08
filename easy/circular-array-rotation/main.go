@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/circular-array-rotation/problem?isFullScreen=true
 package main
 
 import "fmt"
@@ -14,7 +15,7 @@ func circularArrayRotation(a []int32, k int32, queries []int32) []int32 {
 	// [1, 2, 3, 4] -> [4, 1, 2, 3] -> [3, 4, 1, 2] -> [2, 3, 4, 1] -> [1, 2, 3, 4] -> [4, 1, 2, 3]
 	// equal with (1):
 	// [1, 2, 3, 4] -> [4, 1, 2, 3]
-	k = k % int32(n)
+	k = k % n
 
 	// sliding the slice to right based on k
 	a = append(a[n-k:], a[:n-k]...)
