@@ -52,6 +52,8 @@ func partition(arr []int32, left int, right int) int {
 	i := left
 
 	for j := left; j < right; j++ {
+		// < operator means ascending sort
+		// > operator means descending sort
 		if arr[j] < pivot {
 			arr[i], arr[j] = arr[j], arr[i]
 			i++
