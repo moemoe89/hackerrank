@@ -5,27 +5,15 @@ import "fmt"
 
 // need to use int64
 func maximumPerimeterTriangle(sticks []int64) []int64 {
-	m := make(map[int64][]int64)
-
-	m[0] = []int64{-1}
-	max := int64(0)
-
 	quickSort(sticks, 0, len(sticks)-1)
 
-	for i := 0; i <= len(sticks)-3; i++ {
-		if sticks[i]+sticks[i+1] <= sticks[i+2] {
-			continue
-		}
-
-		sum := sticks[i] + sticks[i+1] + sticks[i+2]
-
-		if sum > max {
-			m[sum] = sticks[i : i+3]
-			max = sum
+	for i := 0; i < len(sticks)-2; i++ {
+		if sticks[i] < sticks[i+1]+sticks[i+2] {
+			return []int64{sticks[i+2], sticks[i+1], sticks[i]}
 		}
 	}
 
-	return m[max]
+	return []int64{-1}
 }
 
 func quickSort(arr []int64, left int, right int) {
@@ -44,7 +32,7 @@ func partition(arr []int64, left int, right int) int {
 	for j := left; j < right; j++ {
 		// < operator means ascending sort
 		// > operator means descending sort
-		if arr[j] < pivot {
+		if arr[j] > pivot {
 			arr[i], arr[j] = arr[j], arr[i]
 			i++
 		}
