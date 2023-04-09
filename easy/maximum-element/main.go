@@ -57,5 +57,5 @@ func strToInt32(str string) int32 {
 }
 
 func main() {
-	fmt.Println(getMax([]string{"1 97", "2", "1 20", "2", "1 26", "1 20", "2", "3", "1 19", "3"}))
+	fmt.Println(getMax([]string{"1 97", "2", "1 20", "2", "1 26", "1 20", "2", "3", "1 91", "3"}))
 }
