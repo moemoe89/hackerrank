@@ -17,16 +17,19 @@ type SinglyLinkedListNode struct {
 func mergeLists(llist1 *SinglyLinkedListNode, llist2 *SinglyLinkedListNode) *SinglyLinkedListNode {
 	llists := []int32{}
 
-	for llist1 != nil {
-		llists = append(llists, llist1.data)
+	for llist1 != nil || llist2 != nil {
 
-		llist1 = llist1.next
-	}
+		if llist1 != nil {
+			llists = append(llists, llist1.data)
 
-	for llist2 != nil {
-		llists = append(llists, llist2.data)
+			llist1 = llist1.next
+		}
 
-		llist2 = llist2.next
+		if llist2 != nil {
+			llists = append(llists, llist2.data)
+
+			llist2 = llist2.next
+		}
 	}
 
 	quickSort(llists, 0, len(llists)-1)
