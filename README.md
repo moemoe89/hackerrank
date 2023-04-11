@@ -117,13 +117,14 @@ Just for my personal collections.
 110. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
 111. The Love Letter Mystery - [main.go](easy/the-love-letter-mystery/main.go)
 112. Time Conversion - [main.go](easy/time-conversion/main.go)
-113. Tree Inorder Traversal - [main.go](easy/tree-inorder-traversal/main.go)
-114. Tree Level Order Traversal - [main.go](easy/tree-level-order-traversal/main.go)
-115. Tree Postorder Traversal - [main.go](easy/tree-postorder-traversal/main.go)
-116. Tree Preorder Traversal - [main.go](easy/tree-preorder-traversal/main.go)
-117. Two Strings - [main.go](easy/two-strings/main.go)
-118. Utopian Tree - [main.go](easy/utopian-tree/main.go)
-119. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+113. Tree Height Of A Binary Tree - [main.go](easy/tree-height-of-a-binary-tree/main.go)
+114. Tree Inorder Traversal - [main.go](easy/tree-inorder-traversal/main.go)
+115. Tree Level Order Traversal - [main.go](easy/tree-level-order-traversal/main.go)
+116. Tree Postorder Traversal - [main.go](easy/tree-postorder-traversal/main.go)
+117. Tree Preorder Traversal - [main.go](easy/tree-preorder-traversal/main.go)
+118. Two Strings - [main.go](easy/two-strings/main.go)
+119. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+120. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
