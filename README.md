@@ -116,10 +116,11 @@ Just for my personal collections.
 109. The Love Letter Mystery - [main.go](easy/the-love-letter-mystery/main.go)
 110. Time Conversion - [main.go](easy/time-conversion/main.go)
 111. Tree Inorder Traversal - [main.go](easy/tree-inorder-traversal/main.go)
-112. Tree Preorder Traversal - [main.go](easy/tree-preorder-traversal/main.go)
-113. Two Strings - [main.go](easy/two-strings/main.go)
-114. Utopian Tree - [main.go](easy/utopian-tree/main.go)
-115. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+112. Tree Postorder Traversal - [main.go](easy/tree-postorder-traversal/main.go)
+113. Tree Preorder Traversal - [main.go](easy/tree-preorder-traversal/main.go)
+114. Two Strings - [main.go](easy/two-strings/main.go)
+115. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+116. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
