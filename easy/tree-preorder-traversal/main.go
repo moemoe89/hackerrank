@@ -14,14 +14,14 @@ type Node struct {
 	right *Node
 }
 
-func inorderTraversal(root *Node) {
+func preorderTraversal(root *Node) {
 	if root == nil {
 		return
 	}
 
 	fmt.Print(root.data, " ")
-	inorderTraversal(root.left)
-	inorderTraversal(root.right)
+	preorderTraversal(root.left)
+	preorderTraversal(root.right)
 }
 
 func insert(root *Node, data int) *Node {
@@ -63,5 +63,5 @@ func main() {
 		root = insert(root, data)
 	}
 
-	inorderTraversal(root)
+	preorderTraversal(root)
 }
