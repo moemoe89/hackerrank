@@ -1,4 +1,4 @@
-// https://www.hackerrank.com/challenges/tree-preorder-traversal/problem?isFullScreen=true
+// https://www.hackerrank.com/challenges/tree-postorder-traversal/problem?isFullScreen=true
 package main
 
 import (
@@ -19,9 +19,9 @@ func inorderTraversal(root *Node) {
 		return
 	}
 
-	fmt.Print(root.data, " ")
 	inorderTraversal(root.left)
 	inorderTraversal(root.right)
+	fmt.Print(root.data, " ")
 }
 
 func insert(root *Node, data int) *Node {
