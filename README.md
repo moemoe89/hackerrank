@@ -115,9 +115,10 @@ Just for my personal collections.
 108. The Hurdle Race - [main.go](easy/the-hurdle-race/main.go)
 109. The Love Letter Mystery - [main.go](easy/the-love-letter-mystery/main.go)
 110. Time Conversion - [main.go](easy/time-conversion/main.go)
-111. Two Strings - [main.go](easy/two-strings/main.go)
-112. Utopian Tree - [main.go](easy/utopian-tree/main.go)
-113. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+111. Tree Inorder Traversal - [main.go](easy/tree-inorder-traversal/main.go)
+112. Two Strings - [main.go](easy/two-strings/main.go)
+113. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+114. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
