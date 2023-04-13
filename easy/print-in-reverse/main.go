@@ -8,7 +8,7 @@ type SinglyLinkedListNode struct {
 	next *SinglyLinkedListNode
 }
 
-func reversePrint(llist *SinglyLinkedListNode) {
+func reversePrint2(llist *SinglyLinkedListNode) {
 	var values []int32
 
 	// loop until the end of linked list.
@@ -28,6 +28,16 @@ func reversePrint(llist *SinglyLinkedListNode) {
 	for i := range values {
 		fmt.Println(values[i])
 	}
+}
+
+func reversePrint(llist *SinglyLinkedListNode) {
+	if llist == nil {
+		return
+	}
+
+	reversePrint(llist.next)
+
+	fmt.Println(llist.data)
 }
 
 func main() {
