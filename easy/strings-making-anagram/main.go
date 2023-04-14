@@ -4,26 +4,24 @@ package main
 import "fmt"
 
 func makeAnagram(a string, b string) int32 {
-	mapAB := make(map[rune]int32)
+	m := make(map[rune]int32)
 
 	for _, r := range a {
-		mapAB[r]++
+		m[r]++
 	}
 
 	for _, r := range b {
-		mapAB[r]--
+		m[r]--
 	}
 
 	output := int32(0)
 
-	for _, val := range mapAB {
-
+	for _, val := range m {
 		if val < 0 {
 			output += -(val)
 		} else {
 			output += val
 		}
-
 	}
 
 	return output

@@ -12,14 +12,9 @@ func reversePrint2(llist *SinglyLinkedListNode) {
 	var values []int32
 
 	// loop until the end of linked list.
-	for {
+	for llist != nil {
 		// append to array with reverse position,
 		values = append([]int32{llist.data}, values...)
-
-		// if reach the last element, break the loop.
-		if llist.next == nil {
-			break
-		}
 
 		// override the current (llist) with the next.
 		llist = llist.next
