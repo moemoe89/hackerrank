@@ -18,10 +18,10 @@ func makeAnagram(a string, b string) int32 {
 
 	for _, val := range m {
 		if val < 0 {
-			output += -(val)
-		} else {
-			output += val
+			val = -val
 		}
+
+		output += val
 	}
 
 	return output
