@@ -58,6 +58,10 @@ func kaprekarNumbers(p int64, q int64) {
 }
 
 func numbersToStr(n int64) string {
+	if n == 0 {
+		return "0"
+	}
+
 	// prepare the array of rune
 	var str []rune
 
