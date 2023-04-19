@@ -26,5 +26,5 @@ func appendAndDelete(s string, t string, k int32) string {
 }
 
 func main() {
-	fmt.Println(appendAndDelete("abc", "def", 6))
+	fmt.Println(appendAndDelete("abcd", "abcdert", 6))
 }
