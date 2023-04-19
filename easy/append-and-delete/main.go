@@ -17,8 +17,8 @@ func appendAndDelete(s string, t string, k int32) string {
 	deleteS := lenS - samePrefix
 	deleteT := lenT - samePrefix
 
-	numOps := int32(deleteS + deleteT)
-	if numOps <= k && (k-numOps)%2 == 0 {
+	remainingOps := k - int32(deleteS+deleteT)
+	if remainingOps >= 0 && remainingOps%2 == 0 {
 		return "Yes"
 	}
 
