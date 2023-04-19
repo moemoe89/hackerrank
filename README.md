@@ -10,7 +10,7 @@ Just for my personal collections.
 3. Alternating Characters - [main.go](easy/alternating-characters/main.go)
 4. Anagram - [main.go](easy/anagram/main.go)
 5. Angry Professor - [main.go](easy/angry-professor/main.go)
-6. Apend And Delete - [main.go](easy/apend-and-delete/main.go)
+6. Append And Delete - [main.go](easy/append-and-delete/main.go)
 7. Apple And Orange - [main.go](easy/apple-and-orange/main.go)
 8. Arrays Ds - [main.go](easy/arrays-ds/main.go)
 9. Arrays Left Rotation - [main.go](easy/arrays-left-rotation/main.go)
