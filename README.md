@@ -141,6 +141,7 @@ Just for my personal collections.
 134. Two Strings - [main.go](easy/two-strings/main.go)
 135. Utopian Tree - [main.go](easy/utopian-tree/main.go)
 136. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+137. Weighted Uniform Strings - [main.go](easy/weighted-uniform-strings/main.go)
 
 
 ### Medium 
