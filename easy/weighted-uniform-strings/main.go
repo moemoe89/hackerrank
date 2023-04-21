@@ -17,7 +17,7 @@ func weightedUniformStrings(s string, queries []int32) []string {
 		}
 
 		lastChar = r
-		
+
 		weights[weight] = struct{}{}
 	}
 
