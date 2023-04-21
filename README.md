@@ -137,9 +137,10 @@ Just for my personal collections.
 130. Tree Level Order Traversal - [main.go](easy/tree-level-order-traversal/main.go)
 131. Tree Postorder Traversal - [main.go](easy/tree-postorder-traversal/main.go)
 132. Tree Preorder Traversal - [main.go](easy/tree-preorder-traversal/main.go)
-133. Two Strings - [main.go](easy/two-strings/main.go)
-134. Utopian Tree - [main.go](easy/utopian-tree/main.go)
-135. Viral Advertising - [main.go](easy/viral-advertising/main.go)
+133. Two Characters - [main.go](easy/two-characters/main.go)
+134. Two Strings - [main.go](easy/two-strings/main.go)
+135. Utopian Tree - [main.go](easy/utopian-tree/main.go)
+136. Viral Advertising - [main.go](easy/viral-advertising/main.go)
 
 
 ### Medium 
