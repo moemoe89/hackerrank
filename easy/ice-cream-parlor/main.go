@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/icecream-parlor/problem?isFullScreen=true
 package main
 
 import "fmt"

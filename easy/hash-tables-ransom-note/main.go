@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/ctci-ransom-note/problem?isFullScreen=true
 package main
 
 import "fmt"
@@ -5,22 +6,22 @@ import "fmt"
 func checkMagazine(magazine []string, note []string) {
 	m := make(map[string]int, len(magazine))
 
-	for i := range magazine {
-		m[magazine[i]]++
+	for _, v := range magazine {
+		m[v]++
 	}
 
-	for i := range note {
-		if _, ok := m[note[i]]; !ok {
+	for _, n := range note {
+		if _, ok := m[n]; !ok {
 			fmt.Println("No")
 			return
 		}
 
-		if m[note[i]] == 0 {
+		if m[n] == 0 {
 			fmt.Println("No")
 			return
 		}
 
-		m[note[i]]--
+		m[n]--
 	}
 
 	fmt.Println("Yes")

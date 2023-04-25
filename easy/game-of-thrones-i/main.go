@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/game-of-thrones/problem?isFullScreen=true
 package main
 
 import "fmt"
