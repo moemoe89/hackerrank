@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/sock-merchant/problem?isFullScreen=true
 package main
 
 import "fmt"

@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/kaprekar-numbers/problem?isFullScreen=true
 package main
 
 import (

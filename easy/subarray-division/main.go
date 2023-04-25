@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/the-birthday-bar/problem?isFullScreen=true
 package main
 
 import "fmt"

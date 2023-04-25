@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/luck-balance/problem?isFullScreen=true
 package main
 
 import "fmt"

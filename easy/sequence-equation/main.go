@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/permutation-equation/problem?isFullScreen=true
 package main
 
 import "fmt"

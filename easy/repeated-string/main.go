@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/repeated-string/problem?isFullScreen=true
 package main
 
 import "fmt"

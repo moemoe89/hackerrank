@@ -1,3 +1,4 @@
+// https://www.hackerrank.com/challenges/mark-and-toys/problem?isFullScreen=true
 package main
 
 import "fmt"
