@@ -27,4 +27,3 @@ def reverse_func(n):
 
 if __name__ == '__main__':
     print(beautifulDays(20, 23, 6))
-
