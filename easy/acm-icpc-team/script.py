@@ -13,10 +13,13 @@ def acmTeam(topic):
 #                     topics += 1
 
             topics = bin(int(topic[i], 2) | int(topic[j], 2)).count('1')
-            if topics in m:
-                m[topics] += 1
-            else:
-                m[topics] = 1
+
+            m[topics] = m.get(topics, 0) + 1
+            # key check approach
+            # if topics in m:
+            #     m[topics] += 1
+            # else:
+            #     m[topics] = 1
 
             maxTopics = max(maxTopics, topics)
 
