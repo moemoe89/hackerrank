@@ -4,6 +4,9 @@ def reverseArray(a):
     # short code
     # return reversed(a)
 
+    # another short code
+    # return a[::-1]
+
     i, j = 0, len(a)-1
 
     while i < j:
